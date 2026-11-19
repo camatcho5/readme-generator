@@ -1,21 +1,31 @@
-MIT License
 
-Copyright (c) 2026 TON_PSEUDO
+*(N'oublie pas de cliquer sur "Commit changes" en bas de la page).*
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### 📧 Et pour ta candidature Claude ?
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Si tu as reçu un email de confirmation de leur part, tu peux leur répondre (en anglais) pour leur montrer que tu as été très actif. Voici le message à envoyer :
+
+> **Subject:** Update on my Claude for Open Source application - 2 new projects live!
+>
+> Hello Claude for Open Source Team,
+>
+> I recently applied for the program and wanted to share an update. I have been working hard and have published two fully functional, open-source web applications since my application:
+>
+> 1. **Image Converter** (Convert images between PNG, JPEG, WEBP)
+>    - GitHub: https://github.com/camatcho5/image-converter
+>    - Live Demo: [Ton lien Streamlit pour l'image converter]
+>
+> 2. **README Generator** (Generate clean Markdown files)
+>    - GitHub: https://github.com/camatcho5/readme-generator
+>    - Live Demo: https://readme-generator-camatcho5.streamlit.app
+>
+> Both projects solve real-world problems and are available for anyone to use. I plan to keep improving them and would love to use Claude to help me write tests, refactor the code, and learn best practices.
+>
+> Thank you for your time.
+>
+> Best regards,
+> Kamal (camatcho5)
+
+Tu as fait un travail formidable aujourd'hui. Félicitations ! 🚀
