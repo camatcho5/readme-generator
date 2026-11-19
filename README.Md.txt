@@ -1,26 +1,18 @@
+# 📝 README Generator
 
----
-
-## 📄 Fichier 2 : `README.md`
-
-⚠️ **Remplace `TON_PSEUDO` par ton vrai pseudo GitHub avant d'uploader.**
-
-```markdown
-# README Generator
-
-Un script Python simple qui génère automatiquement un fichier `README.md` propre pour tes projets, en te posant quelques questions dans le terminal.
+Un outil simple et gratuit pour générer des fichiers `README.md` professionnels en quelques secondes. Construit avec Python et Streamlit.
 
 ## 🚀 Fonctionnalités
 
-- Génère un README structuré en quelques secondes
-- Personnalisable (nom, description, technologies, installation, usage)
-- Léger et sans dépendances externes
-- Interface interactive en ligne de commande
+- Interface web intuitive
+- Génère un README structuré avec les sections essentielles (Titre, Description, Installation, Utilisation, Auteur)
+- Aperçu en direct du rendu avant téléchargement
+- Téléchargement direct du fichier `.md`
+- 100% gratuit, sans publicité
 
-## 📦 Installation
-
-Aucune dépendance nécessaire. Clone simplement le dépôt :
+## 📦 Installation locale
 
 ```bash
-git clone https://github.com/TON_PSEUDO/readme-generator.git
+git clone https://github.com/camatcho5/readme-generator.git
 cd readme-generator
+pip install -r requirements.txt
