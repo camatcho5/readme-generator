@@ -1,7 +1,1 @@
-
----
-
-## 📄 Fichier 3 : `requirements.txt`
-
-```text
-# Aucune dépendance externe requise
+streamlit
