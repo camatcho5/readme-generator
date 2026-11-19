@@ -1,24 +1,37 @@
-import os
+import streamlit as st
+import io
 
-def demander_question(question, defaut=""):
-    """Pose une question et retourne la réponse (ou la valeur par défaut)."""
-    reponse = input(f"{question} ")
-    return reponse.strip() if reponse.strip() else defaut
+st.set_page_config(page_title="README Generator", page_icon="📝", layout="centered")
 
-def generer_readme():
-    print("=" * 50)
-    print("  GÉNÉRATEUR DE README")
-    print("=" * 50)
-    print("Réponds aux questions ci-dessous (appuie sur Entrée pour ignorer).\n")
+st.title("📝 README Generator")
+st.write("Générez un fichier `README.md` propre et professionnel pour vos projets en quelques secondes.")
 
-    nom = demander_question("Nom du projet :", "Mon Projet")
-    description = demander_question("Description courte :", "Un projet open source.")
-    technologies = demander_question("Technologies (ex: Python, Flask) :", "Python")
-    installation = demander_question("Commande d'installation :", "pip install -r requirements.txt")
-    usage = demander_question("Exemple d'utilisation :", "python main.py")
-    auteur = demander_question("Ton nom / pseudo GitHub :", "Anonyme")
+st.divider()
 
-    contenu = f"""# {nom}
+# Formulaire de génération
+with st.form("readme_form"):
+    st.subheader("Informations du projet")
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        nom = st.text_input("Nom du projet *", placeholder="Mon Super Projet")
+        auteur = st.text_input("Votre nom / pseudo GitHub *", placeholder="camatcho5")
+    with col2:
+        description = st.text_input("Description courte *", placeholder="Un outil qui fait des choses géniales.")
+        technologies = st.text_input("Technologies (séparées par des virgules)", placeholder="Python, Streamlit, Pillow")
+    
+    installation = st.text_input("Commande d'installation", value="pip install -r requirements.txt")
+    usage = st.text_input("Commande d'utilisation", value="streamlit run app.py")
+    
+    # Bouton de soumission
+    submitted = st.form_submit_button("Générer le README", type="primary", use_container_width=True)
+
+if submitted:
+    if not nom or not auteur or not description:
+        st.error("⚠️ Veuillez remplir les champs obligatoires (marqués d'une étoile).")
+    else:
+        # Construction du contenu Markdown
+        contenu = f"""# {nom}
 
 {description}
 
