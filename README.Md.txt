@@ -5,7 +5,7 @@ Un outil simple et gratuit pour générer des fichiers `README.md` professionnel
 ## 🚀 Fonctionnalités
 
 - Interface web intuitive
-- Génère un README structuré avec les sections essentielles (Titre, Description, Installation, Utilisation, Auteur)
+- Génère un README structuré (Titre, Description, Installation, Utilisation, Auteur)
 - Aperçu en direct du rendu avant téléchargement
 - Téléchargement direct du fichier `.md`
 - 100% gratuit, sans publicité
